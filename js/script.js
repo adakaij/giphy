@@ -16,5 +16,6 @@ $("#search-button").click(function(){
 });
 
 $("#send-button").click(function(){
-  window.open('mailto:test@example.com?subject=subject&body=body');
+  var reciever = $("#send-term").val();
+  window.open('mailto:' + reciever +'?subject=subject&body=body');
 });
