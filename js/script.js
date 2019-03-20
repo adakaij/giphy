@@ -17,5 +17,5 @@ $("#search-button").click(function(){
 
 $("#send-button").click(function(){
   var reciever = $("#send-term").val();
-  window.open('mailto:' + reciever +'?subject=subject&body=body');
+  window.open('mailto:' + reciever +'?subject=' + 'check out this gif' + '&body=' + '');
 });
